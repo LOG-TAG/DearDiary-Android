@@ -11,7 +11,7 @@ buildscript {
 }
 
 task wrapper(type: Wrapper) {
-     gradleVersion = '1.10'
+     gradleVersion = '2.2.1'
 }
 
 apply plugin: 'android'
@@ -21,8 +21,8 @@ repositories {
 }
 
 android {
-        compileSdkVersion 19
-        buildToolsVersion "19.1.0"
+          compileSdkVersion 22
+       buildToolsVersion "22.0.1"
         sourceSets {
            main{
                 manifest.srcFile 'AndroidManifest.xml'
